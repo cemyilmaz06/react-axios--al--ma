@@ -38,7 +38,7 @@ const BilgiList = ({tutorials,deleteBilgi, putBilgi}) => {
                 size={20}
                 type="button"
                 className="me-2 text-warning cursor-pointer"
-                onClick={()=>setEditItem({title,description,id})}
+                onClick={()=>setEditItem({title,description,id})} 
                
               />
             </td>
